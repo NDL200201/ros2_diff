@@ -1,0 +1,1 @@
+/home/server/ros2_ws/src/my_bot/my_bot/launch/rs_intra_process_demo_launch.py

@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/server/ros2_ws/build/my_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/config/empty.yaml
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/config/my_controllers.yaml
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/camera.xacro
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/gazebo_control.xacro
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/inertial_macros.xacro
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/robot.urdf.xacro
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/robot_core.xacro
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/ros2_control.xacro
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/launch/launch_sim.launch.py
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/launch/rs_intra_process_demo_launch.py
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/launch/rs_launch.py
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/launch/rs_multi_camera_launch.py
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/launch/rsp.launch.py
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/worlds/empty.world
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/worlds/new.world
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/base_caster_link.STL
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/base_link.STL
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/camera_link.STL
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/left_wheel_link.STL
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/right_wheel_link.STL
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/wheel_caster_link.STL
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/environment/path.sh
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/environment/path.dsv
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/local_setup.bash
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/local_setup.sh
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/local_setup.zsh
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/local_setup.dsv
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/package.dsv
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/ament_index/resource_index/packages/my_robot
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
+-- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/package.xml

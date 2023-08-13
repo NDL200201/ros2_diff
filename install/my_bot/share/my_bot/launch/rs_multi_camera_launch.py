@@ -1,0 +1,1 @@
+/home/server/ros2_ws/src/my_bot/my_bot/launch/rs_multi_camera_launch.py

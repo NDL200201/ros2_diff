@@ -1,0 +1,55 @@
+[0.012s] Invoking command in '/home/server/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/server/ros2_ws/src/my_bot/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/server/ros2_ws/install/my_robot
+[0.022s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.146s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.155s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.216s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.218s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.219s] -- Added test 'lint_cmake' to check CMake code style
+[0.219s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.221s] -- Added test 'xmllint' to check XML markup files
+[0.222s] -- Configuring done
+[0.224s] -- Generating done
+[0.225s] -- Build files have been written to: /home/server/ros2_ws/build/my_robot
+[0.228s] Invoked command in '/home/server/ros2_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/server/ros2_ws/src/my_bot/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/server/ros2_ws/install/my_robot
+[0.230s] Invoking command in '/home/server/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/server/ros2_ws/build/my_robot -- -j8 -l8
+[0.259s] Invoked command in '/home/server/ros2_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/server/ros2_ws/build/my_robot -- -j8 -l8
+[0.284s] Invoking command in '/home/server/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/server/ros2_ws/build/my_robot
+[0.290s] -- Install configuration: ""
+[0.290s] -- Execute custom install script
+[0.291s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/config/empty.yaml
+[0.297s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/config/my_controllers.yaml
+[0.304s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/camera.xacro
+[0.310s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/gazebo_control.xacro
+[0.317s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/inertial_macros.xacro
+[0.323s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/robot.urdf.xacro
+[0.330s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/robot_core.xacro
+[0.337s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/description/ros2_control.xacro
+[0.343s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/launch/launch_sim.launch.py
+[0.350s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/launch/rs_intra_process_demo_launch.py
+[0.356s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/launch/rs_launch.py
+[0.362s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/launch/rs_multi_camera_launch.py
+[0.369s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/launch/rsp.launch.py
+[0.375s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/worlds/empty.world
+[0.381s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/worlds/new.world
+[0.388s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/base_caster_link.STL
+[0.394s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/base_link.STL
+[0.402s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/camera_link.STL
+[0.409s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/left_wheel_link.STL
+[0.415s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/right_wheel_link.STL
+[0.422s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/meshes/wheel_caster_link.STL
+[0.429s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot
+[0.437s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot
+[0.444s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh
+[0.452s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.dsv
+[0.460s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/environment/path.sh
+[0.469s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/environment/path.dsv
+[0.477s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/local_setup.bash
+[0.484s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/local_setup.sh
+[0.492s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/local_setup.zsh
+[0.501s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/local_setup.dsv
+[0.509s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/package.dsv
+[0.517s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/ament_index/resource_index/packages/my_robot
+[0.524s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
+[0.531s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
+[0.539s] -- Symlinking: /home/server/ros2_ws/install/my_robot/share/my_robot/package.xml
+[0.548s] Invoked command in '/home/server/ros2_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/server/ros2_ws/build/my_robot
